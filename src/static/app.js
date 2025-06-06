@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p>${details.description}</p>
           <p><strong>Schedule:</strong> ${details.schedule}</p>
           <p><strong>Availability:</strong> ${spotsLeft} spots left</p>
-          <div class = "participant-badge">
+          <div class="participant-badge">
           <strong>Participants:</strong> ${
             details.participants.length > 0
               ? details.participants.join(", ")
